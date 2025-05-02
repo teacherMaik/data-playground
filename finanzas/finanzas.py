@@ -4,6 +4,7 @@ import io
 import os
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import pandas as pd
 
 
 def load_env(filepath="../.env"):
@@ -42,3 +43,8 @@ acciones_spreadsheet = spreadsheet.get_worksheet_by_id(ACCIONES_GID)
 ingresos_gastos_data = ingresos_gastos_spreadsheet.get_all_values()
 acciones_data = acciones_spreadsheet.get_all_values()
 
+acciones_df = pd.DataFrame(acciones_data)
+# print(acciones_df)
+
+acciones_df = acciones_df["Nombre de valor"]
+print(acciones_df)
