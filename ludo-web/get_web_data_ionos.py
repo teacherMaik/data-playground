@@ -22,7 +22,8 @@ PASS = os.getenv("LUDO_SSH_PASS")
 
 REMOTE_LOGS_DIR = '/logs'
 LOCAL_LOGS_DIR = Path('ludo-web-access-logs') / "logs"
-LOCAL_TRAFFIC_DIR = Path('ludo-web-traffic')
+SCRIPT_DIR = Path(__file__).resolve().parent
+LOCAL_TRAFFIC_DIR = SCRIPT_DIR.parent
 
 print(f"connecting to {HOST}...")
 
@@ -57,7 +58,7 @@ for file_attr in files:
 
     elif filename == "traffic.db":
 
-        local_traffic_path = LOCAL_TRAFFIC_DIR / "traffic.db"
+        local_traffic_path = LOCAL_TRAFFIC_DIR / "traffic_berk.db"
 
         if local_traffic_path.exists():
 
