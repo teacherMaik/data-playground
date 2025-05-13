@@ -33,4 +33,7 @@ requests-oauthlib==2.0.0
 rsa==4.9.1
 six==1.17.0
 tzdata==2025.2
+ua-parser==1.0.1
+ua-parser-builtins==0.18.0.post1
 urllib3==2.4.0
+user-agents==2.2.0
