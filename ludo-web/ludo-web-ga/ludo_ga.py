@@ -16,7 +16,7 @@ REFRESH = False
 
 if os.path.exists(CACHE_FILE) and not REFRESH:
     print("Loading GA data from cache...")
-    df = pd.read_csv(CACHE_FILE, parse_dates=["date"])
+    df = pd.read_csv(CACHE_FILE)
 
 else:
 
@@ -100,7 +100,7 @@ else:
     df.to_csv(CACHE_FILE, index=False)
 
 
-df = pd.read_csv(CACHE_FILE)
+print(df)
 
 df_active_by_date = df.groupby('date')['activeUsers'].sum().sort_values(ascending=False)
 print(df_active_by_date)
