@@ -1,0 +1,213 @@
+{
+  "all_jokes": [
+    {
+      "joke_id": 1,
+      "joke_title": "wall corner",
+      "joke_lang": "en"
+    },
+    {
+      "joke_id": 2,
+      "joke_title": "nose inches foot",
+      "joke_lang": "en"
+    },
+    {
+      "joke_id": 3,
+      "joke_title": "ocean waves",
+      "joke_lang": "en"
+    },
+    {
+      "joke_id": 4,
+      "joke_title": "palm tree",
+      "joke_lang": "en"
+    },
+    {
+      "joke_id": 5,
+      "joke_title": "birds south",
+      "joke_lang": "en"
+    },
+    {
+      "joke_id": 6,
+      "joke_title": "trust atoms",
+      "joke_lang": "en"
+    },
+    {
+      "joke_id": 7,
+      "joke_title": "nacho cheese",
+      "joke_lang": "en"
+    },
+    {
+      "joke_id": 8,
+      "joke_title": "pizza jokes",
+      "joke_lang": "en"
+    },
+    {
+      "joke_id": 9,
+      "joke_title": "roof joke",
+      "joke_lang": "en"
+    },
+    {
+      "joke_id": 1,
+      "joke_title": "huevo sarten",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 2,
+      "joke_title": "moco pañuelo",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 3,
+      "joke_title": "3 al 30",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 4,
+      "joke_title": "jardinero podamos",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 5,
+      "joke_title": "chiste yogúr",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 6,
+      "joke_title": "chiste autobus",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 7,
+      "joke_title": "niño despistado",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 8,
+      "joke_title": "ciego ojalá lloviera",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 9,
+      "joke_title": "celíaca antoniaco",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 10,
+      "joke_title": "reirse los ojos",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 11,
+      "joke_title": "colmo aladdín",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 12,
+      "joke_title": "pez en el agua",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 13,
+      "joke_title": "conversación dj",
+      "joke_lang": "es"
+    },
+    {
+      "joke_id": 14,
+      "joke_title": "rio eh bro",
+      "joke_lang": "es"
+    }
+  ],
+  "jokes_reactions_en": [
+    {
+      "joke_id": 5,
+      "joke_title": "birds south",
+      "joke_reaction": "laugh",
+      "date": "2025-05-20 18:38:53"
+    },
+    {
+      "joke_id": 1,
+      "joke_title": "wall corner",
+      "joke_reaction": "no-laugh",
+      "date": "2025-05-20 18:38:53"
+    },
+    {
+      "joke_id": 8,
+      "joke_title": "pizza jokes",
+      "joke_reaction": "laugh",
+      "date": "2025-05-20 18:38:56"
+    }
+  ],
+  "jokes_reactions_es": [
+    {
+      "joke_id": 1,
+      "joke_title": "huevo sartén",
+      "joke_reaction": "laugh",
+      "date": "2025-03-21 16:07:45"
+    },
+    {
+      "joke_id": 11,
+      "joke_title": "colmo aladdín",
+      "joke_reaction": "laugh",
+      "date": "2025-03-21 16:08:06"
+    },
+    {
+      "joke_id": 13,
+      "joke_title": "conversación dj",
+      "joke_reaction": "laugh",
+      "date": "2025-03-21 16:11:26"
+    },
+    {
+      "joke_id": 1,
+      "joke_title": "huevo sartén",
+      "joke_reaction": "laugh",
+      "date": "2025-03-21 19:32:28"
+    },
+    {
+      "joke_id": 7,
+      "joke_title": "niño despistado",
+      "joke_reaction": "laugh",
+      "date": "2025-03-21 19:32:32"
+    },
+    {
+      "joke_id": 1,
+      "joke_title": "huevo sartén",
+      "joke_reaction": "laugh",
+      "date": "2025-03-26 16:09:50"
+    },
+    {
+      "joke_id": 13,
+      "joke_title": "conversación dj",
+      "joke_reaction": "laugh",
+      "date": "2025-03-26 16:09:59"
+    },
+    {
+      "joke_id": 4,
+      "joke_title": "jardinero podamos",
+      "joke_reaction": "laugh",
+      "date": "2025-03-26 16:10:02"
+    },
+    {
+      "joke_id": 8,
+      "joke_title": "ciego ojalá lloviera",
+      "joke_reaction": "laugh",
+      "date": "2025-03-26 16:10:05"
+    },
+    {
+      "joke_id": 1,
+      "joke_title": "huevo sartén",
+      "joke_reaction": "no-laugh",
+      "date": "2025-04-06 18:50:04"
+    },
+    {
+      "joke_id": 4,
+      "joke_title": "jardinero podamos",
+      "joke_reaction": "laugh",
+      "date": "2025-04-06 18:50:09"
+    },
+    {
+      "joke_id": 12,
+      "joke_title": "pez en el agua",
+      "joke_reaction": "laugh",
+      "date": "2025-04-06 18:59:23"
+    }
+  ]
+}
